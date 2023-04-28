@@ -22,3 +22,17 @@ signUpBtn.addEventListener("click", function () {
   signUpBtn.classList.remove("disable");
   signInBtn.classList.add("disable");
 });
+// Integarting a password revvealer
+
+const password = document.getElementById("password");
+const eyeshow = document.getElementById("eyeshow");
+
+eyeshow.addEventListener("click", function () {
+  if (password.type == "password") {
+    password.type = "text";
+    eyeshow.style.color = "blue";
+  } else {
+    password.type = "password";
+    eyeshow.style.color = "grey";
+  }
+});
