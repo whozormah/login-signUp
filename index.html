@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=Roboto:ital,wght@0,100;0,400;0,500;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/133dd51583.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-box">
+        <h1 id="tile">Sign Up</h1>
+        <form action="">
+          <div class="input-elements" id="noSign">
+            <i class="fa-solid fa-user"></i>
+            <input type="text" placeholder="Name" />
+          </div>
+          <div class="input-elements">
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" placeholder="abc@gmail.com" />
+          </div>
+          <div class="input-elements" id="noSign">
+            <i class="fa-solid fa-calendar-days"></i>
+            <input type="date" placeholder="Date of Birth" />
+          </div>
+          <div class="input-elements">
+            <i class="fa-sharp fa-solid fa-lock"></i>
+            <input type="password" placeholder="Password" />
+          </div>
+          <p>Forgot Password <a href="#">Click Here</a></p>
+          <div class="button-field">
+            <button type="button" id="signUpbtn">Sign Up</button>
+            <button type="button" class="disable" id="signInbtn">
+              Sign In
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
